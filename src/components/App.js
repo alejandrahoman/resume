@@ -2,10 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Alejandra</p>
-      </header>
+    <div className="nameWrapper">
+      <h1 className="name">
+        <p>
+          <strong>Alejandra Homan</strong>  
+        </p>
+      </h1>
     </div>
   );
 }
