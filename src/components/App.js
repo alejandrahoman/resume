@@ -1,14 +1,14 @@
 import './App.css';
+import About from './About';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="nameWrapper">
-      <h1 className="name">
-        <p>
-          <strong>Alejandra Homan</strong>  
-        </p>
-      </h1>
-    </div>
+    <>
+      <Header />
+      <div className='fullImg'></div>
+      <About />
+    </>
   );
 }
 

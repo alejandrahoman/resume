@@ -1,0 +1,20 @@
+.wrap {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+    font-size: calc(1rem + 1vw);
+    font-variant: small-caps;
+    letter-spacing: 3px;
+}
+
+.headerAbout:visited, headerAbout:hover, headerAbout:active {
+    color: inherit;
+}
+
+.headerAbout {
+    margin-left: auto;
+    font-size: calc(1rem + .5vw);
+    text-decoration: none;
+    color: dark gray;
+}

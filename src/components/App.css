@@ -1,26 +1,17 @@
-.name {
-  font-family: "brandon grotesque", brandon, helvetica, sans-serif;
-  font-size: 5vw;
-  color: #ffffff;
-}
-
-.name::before {
+.fullImg::before {
   content: '';
-  position: fixed;
+  position: absolute;
   left: 0;
-  top: 0;
+  top: 80px; /* header height */
   right: 0;
   background: url(/public/aleny.jpeg) no-repeat center center fixed; 
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 80px); /* header height */
   filter: saturate(.3);
   z-index: -1;
 }
 
-.nameWrapper {
-  diplay: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.fullImg {
+  height: calc(100vh - 80px); /* header height */
 }
