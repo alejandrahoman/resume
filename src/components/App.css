@@ -1,17 +1,26 @@
+.fullImg {
+  height: 80vh;
+  margin-bottom: 48px;
+  /* height: calc(100vh - 80px); header height */
+}
+
 .fullImg::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
-  top: 80px; /* header height */
+  /* top: 80px; header height */
   right: 0;
-  background: url(/public/aleny.jpeg) no-repeat center center fixed; 
+  background: url(/public/main.jpeg) no-repeat center center fixed;
   background-size: cover;
   width: 100%;
-  height: calc(100vh - 80px); /* header height */
-  filter: saturate(.3);
+  height: 80vh;
+  /* height: calc(100vh - 80px); header height */
+  filter: saturate(0.3);
   z-index: -1;
 }
 
-.fullImg {
-  height: calc(100vh - 80px); /* header height */
+@media only screen and (min-width: 992px) {
+  .fullImg::before {
+    background-position: 0 70%;
+  }
 }
