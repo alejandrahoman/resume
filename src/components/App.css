@@ -1,5 +1,5 @@
 .fullImg {
-  height: 80vh;
+  height: 90vh;
   margin-bottom: 48px;
   /* height: calc(100vh - 80px); header height */
 }
@@ -8,19 +8,19 @@
   content: "";
   position: absolute;
   left: 0;
-  /* top: 80px; header height */
+  top: 0;
   right: 0;
-  background: url(/public/main.jpeg) no-repeat center center fixed;
+  background: url(/public/main.jpeg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   /* height: calc(100vh - 80px); header height */
   filter: saturate(0.3);
   z-index: -1;
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 600px) {
   .fullImg::before {
-    background-position: 0 70%;
+    background-position: 0 80%;
   }
 }
