@@ -29,9 +29,11 @@ const CenteredContent = (props) => {
           {headerText}
         </Typography>
       )}
-      <Typography {...style} {...rest}>
-        {text}
-      </Typography>
+      <Typography
+        {...style}
+        {...rest}
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
     </div>
   );
 };
