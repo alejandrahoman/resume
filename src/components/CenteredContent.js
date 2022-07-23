@@ -5,7 +5,6 @@ const CenteredContent = (props) => {
   const { text, headerText, hasRowColor, ...rest } = props;
 
   const style = {
-    textAlign: "center",
     maxWidth: 600,
     sx: { ml: "auto", mr: "auto" },
   };
