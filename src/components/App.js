@@ -1,7 +1,15 @@
 import "./App.css";
 
 import { theme } from "../lib/theme";
-import { experience, headline, name, skills } from "../blurbs/info";
+import {
+  experience,
+  headline,
+  name,
+  skills,
+  education,
+  contact,
+  intro,
+} from "../blurbs/info";
 // import Header from "./Header";
 import { ThemeProvider, responsiveFontSizes } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -15,8 +23,9 @@ function App() {
         <CssBaseline />
         <div className="fullImg"></div>
         {/* <Header /> */}
+        {/* <CenteredContent headerText={intro} /> */}
         <CenteredContent
-          headerText={name}
+          headerText={intro}
           text={headline}
           color="secondary"
           hasRowColor
@@ -28,6 +37,17 @@ function App() {
           color="secondary"
           hasRowColor
         />
+        <CenteredContent
+          headerText="Education"
+          text={education}
+          color="secondary"
+        ></CenteredContent>
+        <CenteredContent
+          headerText="Contact"
+          text={contact}
+          color="secondary"
+          hasRowColor
+        ></CenteredContent>
       </main>
     </ThemeProvider>
   );

@@ -1,6 +1,5 @@
 export const name = "Alejandra Homan";
-export const intro =
-  "Hola!! I am Alejandra. I am from Colombia, I am bilingual (Spanish-English).";
+export const intro = `"Hola!! My name is Alejandra Homan, I am a bilingual HR/Recruiting Professional"`;
 export const headline = `Goal-oriented recruiting professional motivated to achieve demanding targets under tight deadlines.
 Proficient in developing and overseeing diverse candidate pipelines, marketing plans and advertising
 strategies. I have been in the recruiting field for 2 years, recruiting for corporate and staffing
