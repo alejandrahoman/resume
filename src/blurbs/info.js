@@ -5,7 +5,17 @@ export const headline = `Goal-oriented recruiting professional motivated to achi
 Proficient in developing and overseeing diverse candidate pipelines, marketing plans and advertising
 strategies. I have been in the recruiting field for 2 years, recruiting for corporate and staffing
 companies.`;
-export const skills = `Client Relationship Management, Employee Hiring Networking and Partnership Development, Contract Negotiation, LinkedIn Sourcing Pre-Employment Screening, Candidate Sourcing, Recruitment Strategies`;
+// https://www.npmjs.com/package/react-d3-cloud
+export const skills = `
+<ul>
+<li>Client Relationship Management</li>
+<li>Employee Hiring Networking and Partnership Development</li>
+<li>Contract Negotiation</li>
+<li>LinkedIn Sourcing Pre-Employment Screening</li>
+<li>Candidate Sourcing</li>
+<li>Recruitment Strategies</li>
+</ul>
+`;
 export const experience = `
 <h3> Associate Recruiter/HR Generalist 06/2021 - 6/2022 </h3>
 <b> Nulogic Business Solutions, Boca Raton, FL </b> <br>
@@ -52,3 +62,11 @@ documentation, discipline and performance improvement plans.</li>
 <li>Developed recruiting strategies to identify qualified candidates and build network.</li> 
 </ul>
 <br>`;
+export const education = `<h3>Wilmington University</h3>
+  Master's in Organizational Leadership
+  <h3>EAFIT University, Medellin-Colombia</h3>
+  Bachelor degree in Psychology`;
+export const contact = `
+  <section>Fort Lauderdale, FL 33301 | (267) 615-6907 | alejandraqd2@gmail.com</section>
+  <section>LinkedIn: www.linkedin.com/in/alejandra-quiceno</section>
+`;
